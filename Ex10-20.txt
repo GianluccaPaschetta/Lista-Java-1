@@ -1,0 +1,61 @@
+10 - Qual alternativa possui apenas nomes válidos para arquivos de código fonte Java?
+*a. Fatec.java e Treinamentos.java.*
+
+11 - Qual é o comando utilizado para executar o compilador da linguagem Java?
+*b. javac*
+
+12 - Qual é o comando utilizado para executar um programa Java?
+*c. java*
+
+13 - Qual é a extensão dos arquivos que armazenam código compilado de um programa Java?
+*b. .class*
+
+14 - Ao compilar o arquivo Programa.java, quantos arquivos com a extensão .class serão gerados?
+class Maria {
+    public static void main(String[] args) {
+        System.out.println("Maria");
+    }
+}
+class Lobato {
+    public static void main(String[] args) {
+        System.out.println("Lobato");
+    }
+}
+class Jonas {
+    public static void main(String[] args) {
+        System.out.println("Jonas");
+    }
+}
+
+*d. Três*
+
+15 - Para verificar a versão do compilador Java ou do ambiente de execução Java, qual opção
+podemos utilizar ao executar os comandos javac ou java?
+*a. -version*
+
+16 - Qual alternativa declara corretamente o método main?
+*e. public static void main(String[] args)*
+
+17 - Qual código pode ser utilizado para exibir a mensagem Fatec em Java?
+
+*b. System.out.println("Fatec ")*
+
+18 - Qual sequência de escape indica uma "quebra de linha"?
+
+*b. \n*
+
+19 - Quais são os marcadores utilizados para inserir comentários nos programas em Java?
+
+* c. //, /* e */ 
+
+20 - Considere o seguinte programa em Java.
+class Argumentos {
+public static void main(String[] args) {
+    System.out.println(args[0]);
+    System.out.println(args[1]);
+    }
+}
+O que seria exibido na saída padrão se a classe Argumentos fosse executada com o seguinte
+comando?
+java Argumentos Fatec Livros
+*c. Fatec e Livros*
